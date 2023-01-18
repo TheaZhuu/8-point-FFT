@@ -1,0 +1,56 @@
+$date
+	Tue Oct 25 22:54:28 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module bit_reversal_tb $end
+$var wire 16 ! res [15:0] $end
+$var reg 16 " Xi [15:0] $end
+$var integer 32 # i [31:0] $end
+$scope module a1 $end
+$var wire 16 $ Xi [15:0] $end
+$var reg 16 % res [15:0] $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000 &
+b1000000000000 %
+b1000 $
+b0 #
+b1000 "
+b1000000000000 !
+$end
+#10
+b1011011111111111 !
+b1011011111111111 %
+b10000 &
+b1111111111101101 "
+b1111111111101101 $
+b1 #
+#20
+b10 #
+#30
+b1110111111111111 !
+b1110111111111111 %
+b10000 &
+b1111111111110111 "
+b1111111111110111 $
+b11 #
+#40
+b1000100000000000 !
+b1000100000000000 %
+b10000 &
+b10001 "
+b10001 $
+b100 #
+#50
+b101 #
+#60
+b110 #
